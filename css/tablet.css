@@ -1,0 +1,21 @@
+@media screen and (min-width: 758px) {
+  .container {
+    width: 768px;
+  }
+
+  /* -----------PRINCIPLES----------- */
+  .principles {
+    text-align: start;
+  }
+
+  .principles-item-title {
+    text-align: start;
+  }
+  .principles-list {
+    gap: 72px 24px;
+  }
+
+  .principles-item {
+    width: 351px;
+  }
+}

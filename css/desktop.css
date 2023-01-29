@@ -1,0 +1,32 @@
+@media screen and (min-width: 1200px) {
+  .container {
+    width: 1158px;
+  }
+
+  /* -----------PRINCIPLES----------- */
+  .principles {
+    padding-top: 96px;
+    padding-bottom: 96px;
+  }
+
+  .principles-icon-box {
+    display: flex;
+  }
+
+  .principles-list {
+    gap: 24px;
+  }
+
+  .principles-item {
+    width: calc((100% - 72px) / 4);
+  }
+
+  .principles-item-title {
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 1.2;
+  }
+  .principles-item-text {
+    font-weight: 400;
+  }
+}
