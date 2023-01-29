@@ -3,6 +3,33 @@
     width: 768px;
   }
 
+  /* -----------FOOTER----------- */
+
+  .page-footer .container {
+    width: 584px;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 72px 24px;
+  }
+
+  .main-footer-cont {
+    display: inline-block;
+  }
+
+  .soc-footer {
+    display: block;
+  }
+
+  .footer-form {
+    flex-direction: row;
+    gap: 24px;
+  }
+
+  .footer-field-subscribe {
+    align-items: flex-start;
+  }
+
   /* -----------PRINCIPLES----------- */
   .principles {
     text-align: start;
@@ -17,5 +44,25 @@
 
   .principles-item {
     width: 351px;
+  }
+
+  /* -----------TEAM----------- */
+  .team {
+    padding-bottom: 108px;
+  }
+  .team .container {
+    width: 584px;
+  }
+
+  .team-list {
+    gap: 24px;
+  }
+
+  /* ----------CUSTOMERS----------*/
+  .customers-list {
+    gap: 72px 24px;
+  }
+  .customers-item {
+    width: calc((100% - 48px) / 3);
   }
 }

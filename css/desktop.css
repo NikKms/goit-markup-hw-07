@@ -1,6 +1,26 @@
 @media screen and (min-width: 1200px) {
   .container {
+    padding-right: 15px;
+    padding-left: 15px;
     width: 1158px;
+  }
+
+  /* -----------FOOTER----------- */
+
+  .page-footer {
+    padding-top: 100px;
+    padding-bottom: 100px;
+  }
+  .page-footer .container {
+    width: 1158px;
+    align-items: center;
+  }
+
+  .soc-footer {
+    margin-left: 120px;
+  }
+  .footer-field-subscribe {
+    margin-left: 80px;
   }
 
   /* -----------PRINCIPLES----------- */
@@ -10,7 +30,29 @@
   }
 
   .principles-icon-box {
+    margin-bottom: 8px;
     display: flex;
+
+    height: 112px;
+
+    background-color: #f4f4fd;
+    border-radius: 4px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .princeples-icon {
+    width: 264px;
+    height: 112px;
+    padding: 24px 100px;
+    margin-bottom: 8px;
+
+    border-radius: 4px;
+    display: flex;
+    align-items: center;
+    justify-items: center;
+
+    background-color: #f4f4fd;
   }
 
   .principles-list {
@@ -34,6 +76,7 @@
   .product {
     display: block;
     padding-top: 0;
+    padding-bottom: 120px;
     text-align: center;
   }
 
@@ -59,5 +102,27 @@
 
   .product-img {
     border-box: var(--border);
+  }
+
+  /* -----------TEAM----------- */
+  .team {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .team .container {
+    width: 1158px;
+  }
+
+  /* ----------CUSTOMERS----------*/
+  .customers {
+    padding-top: 120px;
+    padding-bottom: 120px;
+  }
+  .customers-list {
+    gap: 24px;
+  }
+
+  .customers-item {
+    width: calc((100% - 120px) / 6);
   }
 }
