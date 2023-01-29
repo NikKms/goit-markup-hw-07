@@ -29,4 +29,35 @@
   .principles-item-text {
     font-weight: 400;
   }
+
+  /* -----------PRODUCT----------- */
+  .product {
+    display: block;
+    padding-top: 0;
+    text-align: center;
+  }
+
+  .product-title {
+    margin-top: 0;
+    margin-bottom: 72px;
+
+    font-size: 36px;
+    line-height: 1.11;
+    letter-spacing: 0.02em;
+    text-transform: capitalize;
+  }
+
+  .product-list {
+    display: flex;
+
+    gap: 24px;
+  }
+
+  .product-item {
+    width: calc((100%-48px) / 3);
+  }
+
+  .product-img {
+    border-box: var(--border);
+  }
 }
