@@ -5,6 +5,40 @@
     width: 1158px;
   }
 
+  /* -------------HEADER------------ */
+  .contacts {
+    flex-direction: row;
+  }
+
+  .contacts-item + .contacts-item {
+    margin-left: 40px;
+  }
+
+  .contacts-link {
+    padding-top: 24px;
+    padding-bottom: 24px;
+
+    display: block;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.5;
+    letter-spacing: 0.02em;
+    color: var(--main-color-text);
+
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+    transition-delay: 0s;
+    transition-property: color;
+  }
+  .contacts-link:hover,
+  .contacts-link:focus {
+    color: var(--accent-color);
+  }
+
+  .navigations-list {
+    margin-left: 76px;
+  }
+
   /* -----------FOOTER----------- */
 
   .page-footer {
@@ -21,6 +55,41 @@
   }
   .footer-field-subscribe {
     margin-left: 80px;
+  }
+
+  /* -----------HERO----------- */
+  .hero {
+    height: 600px;
+
+    padding-top: 188px;
+    padding-bottom: 188px;
+
+
+    background-color: var(--secondary-bgc);
+    background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+      url(../images/desk-bg.jpg);
+  }
+  
+  @media (min-device-pixel-ratio: 2),
+    (min-resolution: 192dpi),
+    (min-resolution: 2dppx) {
+    .hero {
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
+      url(../images/desk-bg-2x.jpg);
+    }
+  }
+  
+  @media (min-device-pixel-ratio: 3),
+    (min-resolution: 288dpi),
+    (min-resolution: 3dppx) {
+    .hero {
+      background-image: linear-gradient(rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)), 
+      url(../images/desk-bg-3x.jpg);
+    }
+  }
+
+  .hero-title {
+    margin-bottom: 48px;
   }
 
   /* -----------PRINCIPLES----------- */
