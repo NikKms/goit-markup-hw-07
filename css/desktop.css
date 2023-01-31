@@ -206,4 +206,24 @@
   .customers-item {
     width: calc((100% - 120px) / 6);
   }
+/* ------***PORTFOLIO***------ */
+.portfolio {
+  padding-top: 96px;
+  padding-bottom: 120px;
 }
+
+  /* -----------GALLERY----------- */
+
+  .gallery-list{
+    justify-content: center;
+    gap: 48px 24px;
+  }
+  .gallery-item{
+
+    width: calc((100% - 48px) / 3);
+  }
+}
+
+ 
+ 
+
