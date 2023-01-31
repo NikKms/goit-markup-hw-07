@@ -2,57 +2,104 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Studio</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
-        rel="stylesheet">
-    <link rel="stylesheet"
-        href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
+      rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css">
     <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/mobile.css">
+    <link rel="stylesheet" href="./css/tablet.css">
+    <link rel="stylesheet" href="./css/desktop.css">
 </head>
 
 <body>
     <!--top line-->
     <header class="page-header">
-        <!-- logo+home -->
+
         <div class="container">
-            <a href="./index.html" class="logo link">WEB<span class="logo-header">STUDIO</span></a>
-
-
-            <button class="menu-togle is-open js-open-menu" aria-expanded="false" aria-controls="mobile-menu"
-                type="button">
-                <svg width="32" height="22">
-                    <use class="header-menu-icon" href="./images/icons.svg#menu-btn"></use>
-                </svg></button>
-
-            <!-- navagations -->
-
-            <ul class="navigations-list list">
-                <li class="navigations-item "><a class="navigations-item-link link" href="./index.html">Studio</a>
-                </li>
-                <li class="navigations-item current"><a class="navigations-item-link link"
-                        href="./portfolio.html">Portfolio</a>
-                </li>
-                <li class="navigations-item"><a class="navigations-item-link link" href="">Contacts</a></li>
+          <a href="./index.html" class="logo link">WEB<span class="logo-header">STUDIO</span></a>
+    
+    
+      <nav class="navigations">
+      <ul class="navigations-list list">
+        <li class="navigations-item current"><a class="navigations-item-link link" href="./index.html">Studio</a>
+        </li>
+        <li class="navigations-item"><a class="navigations-item-link link" href="./portfolio.html">Portfolio</a>
+        </li>
+        <li class="navigations-item"><a class="navigations-item-link link" href="">Contacts</a></li>
+      </ul>
+    </nav>
+    
+    <ul class="contacts list">
+      <li class="contacts-item"><a class="contacts-link link" href="mailto:info@devstudio.com">info@devstudio.com</a>
+      </li>
+      <li class="contacts-item"><a class="contacts-link link" href="tel:+110001111111">+11 (000)
+          111-11-11</a>
+      </li>
+    </ul>
+    
+          
+        
+    
+        <button class="menu-togle is-open js-open-menu" aria-expanded="false" aria-controls="mobile-menu" type="button">
+          <svg class="header-menu-icon" width="32" height="22">
+            <use  href="./images/icons.svg#icon-burger"></use>
+          </svg></button>
+        <div class="mobile-menu-modal js-menu-container" id="mobile-menu">
+          <button type="button" class="mobile-close-btn js-close-menu" >
+            <svg class="mobile-close-icon" width="8" height="8">
+              <use href="./images/icons.svg#icon-close-black-modal"></use>
+            </svg></button>
+          <nav>
+            <ul class="mobile-nav-list list">
+            <li class="mobile-nav-item current"><a class="navigations-item-link link" href="./index.html">Studio</a>
+            </li>
+            <li class="mobile-nav-item"><a class="navigations-item-link link" href="./portfolio.html">Portfolio</a>
+            </li>
+            <li class="mobile-nav-item"><a class="navigations-item-link link" href="">Contacts</a></li>
+          </ul>
+        </nav>
+    
+          <div class="mobile-contacts">
+            <ul class="modal-contacts-list list">
+              <li class="mobile-contacts-item"><a class="mobile-contacts-link link" href="tel:+110001111111">
+                  <span>+11 (000) 111-11-11</span></a>
+              </li>
+              <li class="mobile-contacts-item"><a class="mobile-contacts-link link"
+                  href="mailto:info@devstudio.com">info@devstudio.com</a>
+              </li>
+    
             </ul>
-            </nav>
-            <!--contats-->
-            <ul class="contacts list">
-                <li class="contacts-item"><a class="contacts-link link"
-                        href="mailto:info@devstudio.com">info@devstudio.com</a>
-                </li>
-                <li class="contacts-item"><a class="contacts-link link" href="tel:+110001111111">+11 (000)
-                        111-11-11</a>
-                </li>
+    
+            <ul class="mobile-soc-list">
+              <li class="mobile-soc-item"><a href="" class="mobile-soc-link" target="_blank"
+                  rel="norefferer noopener nofollow"><svg class="mobile-soc-icon" width="16" height="16">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg></a></li>
+              <li class="mobile-soc-item"><a href="" class="mobile-soc-link" target="_blank"
+                  rel="norefferer noopener nofollow"><svg class="mobile-soc-icon" width="16" height="16">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg></a></li>
+              <li class="mobile-soc-item"><a href="" class="mobile-soc-link" target="_blank"
+                  rel="norefferer noopener nofollow"><svg class="mobile-soc-icon" width="16" height="16">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg></a></li>
+              <li class="mobile-soc-item"><a href="" class="mobile-soc-link" target="_blank"
+                  rel="norefferer noopener nofollow"><svg class="team-soc-icon" width="16" height="16">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg></a></li>
             </ul>
+          </div>
+    
         </div>
-
-    </header>
+      </div>
+      </header>
 
     <main class="main-porfolio">
 
@@ -262,111 +309,64 @@
     </main>
 
     <footer class="page-footer">
-        <!-- logo+home -->
+
         <div class="container">
-            <div><a href="./index.html" class="logo link">WEB<span class="page-footer-logo">STUDIO</span></a>
-                <p class="page-footer-text">
-                    Increase the flow of customers and sales for your business with digital marketing & growth
-                    solutions.
-                </p>
-            </div>
-
-            <div class="soc-footer">
-                <p class="footer-soc-pretitle">Social media</p>
-                <ul class="soc-footer-list">
-                    <li class="soc-footer-item">
-                        <a href="" class="soc-footer-link" target="_blank" rel="norefferer noopener nofollow">
-                            <svg class="soc-footer-icon" width="24" height="24">
-                                <use href="./images/icons.svg#icon-instagram"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="soc-footer-item">
-                        <a href="" class="soc-footer-link" target="_blank" rel="norefferer noopener nofollow">
-                            <svg class="soc-footer-icon" width="24" height="24">
-                                <use href="./images/icons.svg#icon-twitter"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="soc-footer-item">
-                        <a href="" class="soc-footer-link" target="_blank" rel="norefferer noopener nofollow">
-                            <svg class="soc-footer-icon" width="24" height="24">
-                                <use href="./images/icons.svg#icon-facebook"></use>
-                            </svg>
-                        </a>
-                    </li>
-                    <li class="soc-footer-item">
-                        <a href="" class="soc-footer-link" target="_blank" rel="norefferer noopener nofollow">
-                            <svg class="soc-footer-icon" width="24" height="24">
-                                <use href="./images/icons.svg#icon-linkedin"></use>
-                            </svg>
-                        </a>
-                    </li>
-                </ul>
-            </div>
-
-            <div class="footer-field-subscribe">
-                <p class="footer-form-title">Subscribe</p>
-                <form class="footer-form">
-                    <label><input class="input-footer" type="email" name="email" placeholder="E-mail" required></label>
-                    <button class="footer-form-btn" type="submit">Subscribe <svg class="footer-icon-btn" width="24"
-                            heigth="24">
-                            <use href="./images/icons.svg#icon-footer-send"></use>
-                        </svg></button>
-                </form>
-            </div>
-
-
-        </div>
-    </footer>
-
-    <div class="mobile-menu-modal js-menu-container" id="mobile-menu">
-        <button type="button" class="mobile-close-btn js-close-menu" data-modal-close>
-            <svg class="mobile-close-icon" width="8" height="8">
-                <use class="modal-close-icon" href="./images/icons.svg#icon-close-black-modal"></use>
-            </svg></button>
-        <ul class="mobile-nav-list list">
-            <li class="mobile-nav-item"><a class="navigations-item-link link" href="./index.html">Studio</a>
-            </li>
-            <li class="mobile-nav-item current"><a class="navigations-item-link link"
-                    href="./portfolio.html">Portfolio</a>
-            </li>
-            <li class="mobile-nav-item"><a class="navigations-item-link link" href="">Contacts</a></li>
-        </ul>
-
-        <!--contats-->
-        <div class="mobile-contacts">
-            <ul class="modal-contacts-list list">
-                <li class="mobile-contacts-item"><a class="contacts-link link" href="tel:+110001111111">
-                        <span>+11 (000) 111-11-11</span></a>
-                </li>
-                <li class="mobile-contacts-item"><a class="contacts-link link"
-                        href="mailto:info@devstudio.com">info@devstudio.com</a>
-                </li>
-
+          <div class="main-footer-cont">
+            <a href="./index.html" class="logo link">WEB<span class="page-footer-logo">STUDIO</span></a>
+            <p class="page-footer-text">
+              Increase the flow of customers and sales for your business with digital marketing & growth
+              solutions.
+            </p>
+          </div>
+    
+          <div class="soc-footer">
+            <p class="footer-soc-pretitle">Social media</p>
+            <ul class="soc-footer-list">
+              <li class="soc-footer-item">
+                <a href="" class="soc-footer-link" target="_blank" rel="norefferer noopener nofollow">
+                  <svg class="soc-footer-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="soc-footer-item">
+                <a href="" class="soc-footer-link" target="_blank" rel="norefferer noopener nofollow">
+                  <svg class="soc-footer-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-twitter"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="soc-footer-item">
+                <a href="" class="soc-footer-link" target="_blank" rel="norefferer noopener nofollow">
+                  <svg class="soc-footer-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+              </li>
+              <li class="soc-footer-item">
+                <a href="" class="soc-footer-link" target="_blank" rel="norefferer noopener nofollow">
+                  <svg class="soc-footer-icon" width="24" height="24">
+                    <use href="./images/icons.svg#icon-linkedin"></use>
+                  </svg>
+                </a>
+              </li>
             </ul>
-
-            <ul class="mobile-soc-list">
-                <li class="mobile-soc-item"><a href="" class="mobile-soc-link" target="_blank"
-                        rel="norefferer noopener nofollow"><svg class="mobile-soc-icon" width="16" height="16">
-                            <use href="./images/icons.svg#icon-instagram"></use>
-                        </svg></a></li>
-                <li class="mobile-soc-item"><a href="" class="mobile-soc-link" target="_blank"
-                        rel="norefferer noopener nofollow"><svg class="mobile-soc-icon" width="16" height="16">
-                            <use href="./images/icons.svg#icon-twitter"></use>
-                        </svg></a></li>
-                <li class="mobile-soc-item"><a href="" class="mobile-soc-link" target="_blank"
-                        rel="norefferer noopener nofollow"><svg class="mobile-soc-icon" width="16" height="16">
-                            <use href="./images/icons.svg#icon-facebook"></use>
-                        </svg></a></li>
-                <li class="mobile-soc-item"><a href="" class="mobile-soc-link" target="_blank"
-                        rel="norefferer noopener nofollow"><svg class="team-soc-icon" width="16" height="16">
-                            <use href="./images/icons.svg#icon-linkedin"></use>
-                        </svg></a></li>
-            </ul>
+          </div>
+    
+          <div class="footer-field-subscribe">
+            <p class="footer-form-title">Subscribe</p>
+            <form class="footer-form">
+              <label><input class="input-footer" type="email" name="email" placeholder="E-mail" required></label>
+              <button class="footer-form-btn" type="submit">Subscribe <svg class="footer-icon-btn" width="24" heigth="24">
+                  <use href="./images/icons.svg#icon-footer-send"></use>
+                </svg></button>
+            </form>
+          </div>
+    
+    
         </div>
+      </footer>
 
-    </div>
     <script src="./js/mobile-menu.js"></script>
 
 </body>
