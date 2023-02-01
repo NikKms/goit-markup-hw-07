@@ -163,7 +163,7 @@
   }
 
   .principles-item {
-    /* width: 351px; */
+    
     width: calc((100% - 24px) / 2);
   }
 
