@@ -1,6 +1,7 @@
-@media screen and (min-width: 768px) {
+@media screen and  (min-width:768px)
+{
   .container {
-    width: 758px;
+    width: 768px;
   }
 /* -----------------HEADER-------------- */
 
@@ -79,13 +80,7 @@
   line-height: 1.33;
   letter-spacing: 0.04em;
 }
-.current .navigations-item-link {
-  color: var(--accent-color);
-}
 
-.current .navigations-item-link {
-  color: var(--accent-color);
-}
 
 .contacts-link:hover,
 .contacts-link:focus {
@@ -149,7 +144,7 @@
   }
 
   .hero-title {
-    min-width: 494px;
+    min-width: 496px;
     font-size: 56px;
     line-height: 1.07;
     margin-bottom: 40px;
@@ -168,7 +163,8 @@
   }
 
   .principles-item {
-    width: 351px;
+    /* width: 351px; */
+    width: calc((100% - 24px) / 2);
   }
 
   /* -----------TEAM----------- */
@@ -180,7 +176,7 @@
   }
 
   .team-list {
-    gap: 24px;
+    gap: 72px 24px;
   }
 
   /* ----------CUSTOMERS----------*/

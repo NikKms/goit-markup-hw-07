@@ -132,7 +132,7 @@ img {
   align-items: center;
 }
 
-.logo.link {
+.page-header .logo.link {
   display: flex;
   padding: 23px 0;
 }
@@ -235,6 +235,10 @@ img {
 .mobile-close-btn:focus {
   background-color: var(--accent-color);
   color: var(--white);
+}
+
+.current .navigations-item-link {
+  color: var(--accent-color);
 }
 
 .mobile-nav-list {
