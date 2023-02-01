@@ -210,7 +210,9 @@ img {
   height: 24px;
   width: 24px;
 
-  display: flex;
+  /* display: flex; */
+  display: block;
+  padding: 0;
   justify-content: center;
   align-items: center;
 
@@ -224,7 +226,6 @@ img {
 
   transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1),
   color 250ms cubic-bezier(0.4, 0, 0.2, 1);
- 
 }
 
 .mobile-close-icon {
